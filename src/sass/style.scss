@@ -1,0 +1,17 @@
+@import url('../fonts/Gilroy/stylesheet.css');
+
+
+*{
+    font-family: Gilroy;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 945px;
+    margin: 0 auto;
+}
+
+@import './bloks/menu';
+@import './bloks/promo';
+@import './bloks/about';

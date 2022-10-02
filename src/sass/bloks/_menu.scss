@@ -1,0 +1,25 @@
+.menu{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    li{
+        list-style-type: none;
+        text-decoration: none;
+        a{
+            text-decoration: none;
+            font-size: 18px;
+            line-height: 22px;
+            color: #828282;
+            &:hover{
+                text-decoration: underline;
+                color: #000;
+            }
+        }
+    }
+    &__divider{
+        border: 1px solid #828282;
+        width: 945px;
+        height: 0px;
+    }
+}

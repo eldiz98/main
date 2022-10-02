@@ -1,0 +1,51 @@
+.about{
+    background: url("https://img.freepik.com/free-vector/white-minimal-background_1393-354.jpg?w=2000");
+    height: 500px;
+    padding-top: 120px;
+    padding-bottom: 107px;
+    text-align: center;
+    &__text{
+        font-size: 18px;
+        line-height: 22px;
+        margin-bottom: 80px;
+        &_title{
+            margin-bottom: 20px;    
+            font-size: 34px;
+            line-height: 42px;
+        }
+    }
+}
+
+
+.about {
+    &__skills {
+        display: grid;
+        grid-template: 1fr / 400px;
+        grid-auto-rows: 1fr;
+        column-gap: 50px;
+        row-gap: 60px;
+        justify-content: center;
+        justify-items: start;
+        &-item {
+            display: grid;
+            grid-template-columns: 40px 350px;
+            column-gap: 20px;
+            justify-items: flex-start;
+        }
+        &-circle {
+            position: relative;
+            padding: 15px 0 0 15px;
+        }
+        &-text {
+            margin-top: 6px;
+            font-size: 16px;
+            line-height: 18px;
+            width: 100%;
+            text-align: start;
+        }
+    }
+    .title{
+        font-size: 22px;
+        text-align: start;
+    }
+}
