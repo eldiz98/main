@@ -23,7 +23,7 @@
             font-weight: 500;
         }
         img{
-            margin-top: 30px;
+            margin-top: 0;
         }
         a{
             text-decoration: none;
@@ -42,5 +42,19 @@
             font-size: 16px;
             font-weight: bold;
         }
+        .promo__socialll{
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            left: -108px;
+            top: -15px;
+            .fixed{
+                position: fixed;
+            }
+            img{
+                margin-bottom: 20px;
+            }
+        }
     }
+    
 }

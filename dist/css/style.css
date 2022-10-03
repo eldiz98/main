@@ -1,0 +1,280 @@
+@charset "UTF-8";
+@import url("../fonts/Gilroy/stylesheet.css");
+/* line 4, ../../../../../../Сергей/Desktop/SASPlanet_200606/work/main/src/sass/style.scss */
+* {
+  font-family: Gilroy;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 10, ../../../../../../Сергей/Desktop/SASPlanet_200606/work/main/src/sass/style.scss */
+.container {
+  width: 945px;
+  margin: 0 auto;
+}
+
+/* line 1, ../../../../../../Сергей/Desktop/SASPlanet_200606/work/main/src/sass/bloks/_menu.scss */
+.menu {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+/* line 6, ../../../../../../Сергей/Desktop/SASPlanet_200606/work/main/src/sass/bloks/_menu.scss */
+.menu li {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+/* line 9, ../../../../../../Сергей/Desktop/SASPlanet_200606/work/main/src/sass/bloks/_menu.scss */
+.menu li a {
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 22px;
+  color: #828282;
+}
+
+/* line 15, ../../../../../../Сергей/Desktop/SASPlanet_200606/work/main/src/sass/bloks/_menu.scss */
+.menu li a:hover {
+  text-decoration: underline;
+  color: #000;
+}
+
+/* line 21, ../../../../../../Сергей/Desktop/SASPlanet_200606/work/main/src/sass/bloks/_menu.scss */
+.menu__divider {
+  border: 1px solid #828282;
+  width: 945px;
+  height: 0px;
+}
+
+/* line 1, ../../../../../../Сергей/Desktop/SASPlanet_200606/work/main/src/sass/bloks/_promo.scss */
+.promo {
+  padding-top: 35px;
+  padding-bottom: 105px;
+}
+
+/* line 4, ../../../../../../Сергей/Desktop/SASPlanet_200606/work/main/src/sass/bloks/_promo.scss */
+.promo__wrapper {
+  position: relative;
+  display: grid;
+  grid-template-columns: 300px 400px 245px;
+  justify-content: flex-start;
+}
+
+/* line 9, ../../../../../../Сергей/Desktop/SASPlanet_200606/work/main/src/sass/bloks/_promo.scss */
+.promo__wrapper_title {
+  font-weight: 600;
+  font-size: 47px;
+  line-height: 59px;
+  width: 123px;
+  color: #070707;
+}
+
+/* line 16, ../../../../../../Сергей/Desktop/SASPlanet_200606/work/main/src/sass/bloks/_promo.scss */
+.promo__wrapper_info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  line-height: 22px;
+  color: #070707;
+  font-weight: 500;
+}
+
+/* line 25, ../../../../../../Сергей/Desktop/SASPlanet_200606/work/main/src/sass/bloks/_promo.scss */
+.promo__wrapper img {
+  margin-top: 0;
+}
+
+/* line 28, ../../../../../../Сергей/Desktop/SASPlanet_200606/work/main/src/sass/bloks/_promo.scss */
+.promo__wrapper a {
+  text-decoration: none;
+  color: #828282;
+}
+
+/* line 31, ../../../../../../Сергей/Desktop/SASPlanet_200606/work/main/src/sass/bloks/_promo.scss */
+.promo__wrapper a:active {
+  color: #070707;
+}
+
+/* line 35, ../../../../../../Сергей/Desktop/SASPlanet_200606/work/main/src/sass/bloks/_promo.scss */
+.promo__wrapper span {
+  position: absolute;
+  left: 905px;
+  top: 42px;
+  transform: rotate(-90deg);
+  width: 65px;
+  color: #828282;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* line 45, ../../../../../../Сергей/Desktop/SASPlanet_200606/work/main/src/sass/bloks/_promo.scss */
+.promo__wrapper .promo__socialll {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  left: -108px;
+  top: -15px;
+}
+
+/* line 51, ../../../../../../Сергей/Desktop/SASPlanet_200606/work/main/src/sass/bloks/_promo.scss */
+.promo__wrapper .promo__socialll .fixed {
+  position: fixed;
+}
+
+/* line 54, ../../../../../../Сергей/Desktop/SASPlanet_200606/work/main/src/sass/bloks/_promo.scss */
+.promo__wrapper .promo__socialll img {
+  margin-bottom: 20px;
+}
+
+/* line 1, ../../../../../../Сергей/Desktop/SASPlanet_200606/work/main/src/sass/bloks/_about.scss */
+.about {
+  background: url("https://img.freepik.com/free-vector/white-minimal-background_1393-354.jpg?w=2000");
+  height: 500px;
+  padding-top: 120px;
+  padding-bottom: 107px;
+  text-align: center;
+}
+
+/* line 7, ../../../../../../Сергей/Desktop/SASPlanet_200606/work/main/src/sass/bloks/_about.scss */
+.about__text {
+  font-size: 18px;
+  line-height: 22px;
+  margin-bottom: 80px;
+}
+
+/* line 11, ../../../../../../Сергей/Desktop/SASPlanet_200606/work/main/src/sass/bloks/_about.scss */
+.about__text_title {
+  margin-bottom: 20px;
+  font-size: 34px;
+  line-height: 42px;
+}
+
+/* line 21, ../../../../../../Сергей/Desktop/SASPlanet_200606/work/main/src/sass/bloks/_about.scss */
+.about__skills {
+  display: grid;
+  grid-template: 1fr / 400px;
+  grid-auto-rows: 1fr;
+  column-gap: 50px;
+  row-gap: 60px;
+  justify-content: center;
+  justify-items: start;
+}
+
+/* line 29, ../../../../../../Сергей/Desktop/SASPlanet_200606/work/main/src/sass/bloks/_about.scss */
+.about__skills-item {
+  display: grid;
+  grid-template-columns: 40px 350px;
+  column-gap: 20px;
+  justify-items: flex-start;
+}
+
+/* line 35, ../../../../../../Сергей/Desktop/SASPlanet_200606/work/main/src/sass/bloks/_about.scss */
+.about__skills-circle {
+  position: relative;
+  padding: 15px 0 0 15px;
+}
+
+/* line 39, ../../../../../../Сергей/Desktop/SASPlanet_200606/work/main/src/sass/bloks/_about.scss */
+.about__skills-text {
+  margin-top: 6px;
+  font-size: 16px;
+  line-height: 18px;
+  width: 100%;
+  text-align: start;
+}
+
+/* line 47, ../../../../../../Сергей/Desktop/SASPlanet_200606/work/main/src/sass/bloks/_about.scss */
+.about .title {
+  font-size: 22px;
+  text-align: start;
+}
+
+/* line 1, ../../../../../../Сергей/Desktop/SASPlanet_200606/work/main/src/sass/bloks/_skills.scss */
+.skills {
+  background-color: #f4f7fd;
+  height: 500px;
+  padding-top: 91px;
+}
+
+/* line 6, ../../../../../../Сергей/Desktop/SASPlanet_200606/work/main/src/sass/bloks/_skills.scss */
+.skills .title {
+  font-size: 34px;
+  line-height: 42px;
+  text-align: center;
+}
+
+/* line 11, ../../../../../../Сергей/Desktop/SASPlanet_200606/work/main/src/sass/bloks/_skills.scss */
+.skills .subtitle {
+  margin-top: 65px;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+}
+
+/* line 17, ../../../../../../Сергей/Desktop/SASPlanet_200606/work/main/src/sass/bloks/_skills.scss */
+.skills__flex {
+  display: flex;
+  margin-top: 83px;
+  justify-content: space-around;
+  text-align: center;
+  font-size: 14px;
+  line-height: 17px;
+  color: #828282;
+}
+
+/* line 25, ../../../../../../Сергей/Desktop/SASPlanet_200606/work/main/src/sass/bloks/_skills.scss */
+.skills__flex_box {
+  width: 89px;
+  height: 89px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* line 30, ../../../../../../Сергей/Desktop/SASPlanet_200606/work/main/src/sass/bloks/_skills.scss */
+.skills__flex_box img {
+  height: 89px;
+  object-fit: contain;
+  margin-bottom: 23px;
+}
+
+/* line 1, ../../../../../../Сергей/Desktop/SASPlanet_200606/work/main/src/sass/bloks/_portfolio.scss */
+.portfolio {
+  background-color: #f4f7fd;
+  padding-top: 112px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  font-weight: 400;
+}
+
+/* line 9, ../../../../../../Сергей/Desktop/SASPlanet_200606/work/main/src/sass/bloks/_portfolio.scss */
+.portfolio .title {
+  font-size: 34px;
+  line-height: 42px;
+  text-align: center;
+}
+
+/* line 14, ../../../../../../Сергей/Desktop/SASPlanet_200606/work/main/src/sass/bloks/_portfolio.scss */
+.portfolio img {
+  margin-top: 99px;
+  margin-bottom: 44px;
+}
+
+/* line 18, ../../../../../../Сергей/Desktop/SASPlanet_200606/work/main/src/sass/bloks/_portfolio.scss */
+.portfolio a {
+  margin-top: 44px;
+  margin-bottom: 99px;
+  text-decoration: none;
+  color: #000;
+}
+
+/* line 24, ../../../../../../Сергей/Desktop/SASPlanet_200606/work/main/src/sass/bloks/_portfolio.scss */
+.portfolio a:hover {
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=style.css.map */

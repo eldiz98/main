@@ -1,0 +1,37 @@
+.skills{
+    background-color:#f4f7fd;
+    height: 500px;
+    padding-top: 91px;
+    
+    .title{
+        font-size: 34px;
+        line-height: 42px;
+        text-align: center;
+    }
+    .subtitle{
+        margin-top: 65px;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+    }
+    &__flex{
+        display: flex;
+        margin-top: 83px;
+        justify-content:space-around;
+        text-align: center;
+        font-size: 14px;
+        line-height: 17px;
+        color: #828282;
+        &_box{
+            width: 89px;
+            height: 89px;
+            display: flex;
+            flex-direction: column;
+            img{
+                height: 89px;
+                object-fit: contain;
+                margin-bottom: 23px;
+            }
+        }
+    }
+}

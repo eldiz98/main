@@ -1,0 +1,28 @@
+.portfolio{
+    background-color:#f4f7fd;
+    padding-top: 112px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    font-weight: 400;
+    .title{
+        font-size: 34px;
+        line-height: 42px;
+        text-align: center;
+    }
+    img{
+        margin-top: 99px;
+        margin-bottom: 44px;
+    }
+    a{
+ 
+        margin-top: 44px;
+        margin-bottom: 99px;
+        text-decoration: none;
+        color: #000;
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+}
