@@ -1,8 +1,6 @@
 .skills{
-    background-color:#f4f7fd;
-    height: 500px;
+    height: 600px;
     padding-top: 91px;
-    
     .title{
         font-size: 34px;
         line-height: 42px;
@@ -32,6 +30,16 @@
                 object-fit: contain;
                 margin-bottom: 23px;
             }
+        }
+    }
+    &__img{
+        display: flex;
+        justify-content: center;
+        img{
+            margin-top: 30px;
+            width: 550px;
+            height: 271p;
+            z-index: -1;
         }
     }
 }
