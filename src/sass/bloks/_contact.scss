@@ -6,6 +6,7 @@
         font-size: 34px;
         line-height: 42px;
         text-align: center;
+        margin-top: 50px;
     }
     &__text{
         font-size: 18px;
@@ -48,13 +49,15 @@
         color: #828282;
     }
     &__video{
-        position: relative;
+        display: block;
         img{
-            position: absolute;
+            display: block;
+            margin: 0 auto;
             border-radius: 30px;
-            height: 338px;
-            left: 779px;
-            top: -343px;
+            height: 400px;
         }
     }
+}
+a{
+    text-decoration: none;
 }
